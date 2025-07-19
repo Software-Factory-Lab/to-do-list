@@ -11,8 +11,33 @@
 </head>
 
 <body>
-  <div>
-    <h1>Olá Mundo!</h1>
+  <div class="container">
+    <header>
+      <img alt="Logo Todo" src="./assets/logo.png" />
+    </header>
+
+    <div class="wrapper">
+      <form>
+        <input type="text" placeholder="Adicione uma nova tarefa:">
+        <button type="submit">Criar</button>
+      </form>
+
+      <div class="content">
+        <div class="content-title">
+          <p>Tarefas criadas <span>16</span></p>
+          <p>Concluídas <span>16</span></p>
+        </div>
+
+        <ul class="content-list">
+          <li></li>
+        </ul>
+
+        <div class="content-empty-list">
+          <h2>Você ainda não tem tarefas cadastradas</h2>
+          <p>Crie tarefas e organize seus itens a fazer</p>
+        </div>
+      </div>
+    </div>
   </div>
   
   <script src="./js/script.js"></script>
