@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f5;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #8257e5;
+    font-weigth: bold;
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    padding: 10px solid #ccc;
+    border-radius: 4px;
+}
+
