@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+   font-family: sans-serif;
   display: flex;
   justify-content: center;
   background-color: #f2f2f2;
@@ -14,13 +14,6 @@ body {
    width: 100%;
    min-height: 80vh;
    text-align: center;
-}
-
-
-
-header img{
-   max-width: 120px;
-   margin-bottom: 20px;
 }
 
 .wrapper {
@@ -47,11 +40,29 @@ button {
     cursor: pointer;
 }
 
+
 .status {
+    margin-top: 50px;
     margin-bottom: 20px;
     display:flex;
     justify-content: space-between;
-    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;   
+    color: #5E5E5E;    
+}
+
+.circulo-mais {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  line-height: 16px;
+  margin-left: 4px;
+  color: white;
 }
 
 ul {

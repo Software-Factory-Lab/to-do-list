@@ -23,14 +23,15 @@
     </header>
 
     <div class="wrapper">
-      
         <input type="text" id="novaTarefa" placeholder="Adicione uma nova tarefa:">
-        <button onclick="criarTarefa()">Criar</button>
+        <button class="botao-criar" onclick="criarTarefa()">
+           Criar <span class="circulo-mais">+</span>
+        </button>
     </div>
 
       <div class="status">
-        <span id="Criadas">Tarefas criadas 16</span>
-        <span id="concluidas">Concluídas 8</span>
+        <span id="Criadas">Tarefas criadas <span class="count">16</span></span>
+        <span id="concluidas">Concluídas <span class="count">8</span></span>
       </div> 
 
         <ul id="listaTarefas">
